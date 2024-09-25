@@ -9,12 +9,17 @@ class ButtonView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Padding(
+      child: Container(
         padding: const EdgeInsets.all(2.0),
-        child: RaisedButton(
-          color: Colors.blue,
-          textColor: Colors.white,
-          child: Text(_text),
+        color: Colors.blue,
+        child: ElevatedButton(
+          child: Text(
+            _text,
+            style: Theme.of(context)
+                .textTheme
+                .bodyMedium
+                ?.copyWith(color: Colors.white),
+          ),
           onPressed: action,
         ),
       ),

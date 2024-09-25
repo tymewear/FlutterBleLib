@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:fimber/fimber.dart';
 import 'package:flutter/material.dart';
-
 import 'package:flutter_ble_lib_example/model/ble_device.dart';
 
 import 'devices_bloc.dart';
@@ -81,10 +80,10 @@ class DeviceListScreenState extends State<DevicesListScreen> {
         title: Text('Bluetooth devices'),
       ),
       body: StreamBuilder<List<BleDevice>>(
-        initialData: devicesBloc.visibleDevices.valueWrapper?.value ?? <BleDevice>[],
+        initialData: devicesBloc.visibleDevices.value,
         stream: devicesBloc.visibleDevices,
         builder: (context, snapshot) => RefreshIndicator(
-          onRefresh: devicesBloc.refresh ,
+          onRefresh: devicesBloc.refresh,
           child: DevicesList(devicesBloc, snapshot.data),
         ),
       ),
@@ -138,11 +137,12 @@ class DevicesList extends ListView {
     switch (device.category) {
       case DeviceCategory.sensorTag:
         return CircleAvatar(
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.asset('assets/ti_logo.png'),
-            ),
-            backgroundColor: Theme.of(context).accentColor);
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Image.asset('assets/ti_logo.png'),
+          ),
+          backgroundColor: Theme.of(context).canvasColor,
+        );
       case DeviceCategory.hex:
         return CircleAvatar(
             child: CustomPaint(painter: HexPainter(), size: Size(20, 24)),
