@@ -4,8 +4,8 @@ import android.util.Log;
 
 import com.polidea.flutter_ble_lib.constant.ArgumentKey;
 import com.polidea.flutter_ble_lib.constant.MethodName;
-import com.polidea.multiplatformbleadapter.BleAdapter;
-import com.polidea.multiplatformbleadapter.errors.BleErrorCode;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.BleAdapter;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.errors.BleErrorCode;
 
 import java.util.Arrays;
 import java.util.List;

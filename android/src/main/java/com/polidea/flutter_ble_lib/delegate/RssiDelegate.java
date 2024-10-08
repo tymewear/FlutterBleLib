@@ -6,11 +6,11 @@ import com.polidea.flutter_ble_lib.SafeMainThreadResolver;
 import com.polidea.flutter_ble_lib.constant.ArgumentKey;
 import com.polidea.flutter_ble_lib.constant.MethodName;
 import com.polidea.flutter_ble_lib.converter.BleErrorJsonConverter;
-import com.polidea.multiplatformbleadapter.BleAdapter;
-import com.polidea.multiplatformbleadapter.Device;
-import com.polidea.multiplatformbleadapter.OnErrorCallback;
-import com.polidea.multiplatformbleadapter.OnSuccessCallback;
-import com.polidea.multiplatformbleadapter.errors.BleError;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.BleAdapter;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.Device;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.OnErrorCallback;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.OnSuccessCallback;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.errors.BleError;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.polidea.flutter_ble_lib.converter;
 
 
-import com.polidea.multiplatformbleadapter.errors.BleError;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.errors.BleError;
 
 import org.json.JSONException;
 import org.json.JSONObject;

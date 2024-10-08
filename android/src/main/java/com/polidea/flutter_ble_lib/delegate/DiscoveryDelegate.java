@@ -9,14 +9,14 @@ import com.polidea.flutter_ble_lib.converter.CharacteristicJsonConverter;
 import com.polidea.flutter_ble_lib.converter.MultiCharacteristicsResponseJsonConverter;
 import com.polidea.flutter_ble_lib.converter.MultiDescriptorsResponseJsonConverter;
 import com.polidea.flutter_ble_lib.converter.ServiceJsonConverter;
-import com.polidea.multiplatformbleadapter.BleAdapter;
-import com.polidea.multiplatformbleadapter.Characteristic;
-import com.polidea.multiplatformbleadapter.Descriptor;
-import com.polidea.multiplatformbleadapter.Device;
-import com.polidea.multiplatformbleadapter.OnErrorCallback;
-import com.polidea.multiplatformbleadapter.OnSuccessCallback;
-import com.polidea.multiplatformbleadapter.Service;
-import com.polidea.multiplatformbleadapter.errors.BleError;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.BleAdapter;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.Characteristic;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.Descriptor;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.Device;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.OnErrorCallback;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.OnSuccessCallback;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.Service;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.errors.BleError;
 
 import org.json.JSONException;
 

@@ -1,6 +1,6 @@
 package com.polidea.flutter_ble_lib;
 
-import com.polidea.multiplatformbleadapter.ConnectionState;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.ConnectionState;
 
 public class ConnectionStateChange {
     private String peripheralIdentifier;

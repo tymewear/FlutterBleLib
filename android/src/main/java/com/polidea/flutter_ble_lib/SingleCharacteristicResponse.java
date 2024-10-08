@@ -1,6 +1,6 @@
 package com.polidea.flutter_ble_lib;
 
-import com.polidea.multiplatformbleadapter.Characteristic;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.Characteristic;
 
 import java.util.UUID;
 

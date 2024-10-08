@@ -1,6 +1,6 @@
 package com.polidea.flutter_ble_lib.converter;
 
-import com.polidea.multiplatformbleadapter.Descriptor;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.Descriptor;
 
 import org.json.JSONArray;
 import org.json.JSONException;

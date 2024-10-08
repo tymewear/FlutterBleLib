@@ -3,9 +3,9 @@ package com.polidea.flutter_ble_lib;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.polidea.multiplatformbleadapter.OnErrorCallback;
-import com.polidea.multiplatformbleadapter.OnSuccessCallback;
-import com.polidea.multiplatformbleadapter.errors.BleError;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.OnErrorCallback;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.OnSuccessCallback;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.errors.BleError;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 

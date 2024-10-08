@@ -1,7 +1,7 @@
 package com.polidea.flutter_ble_lib;
 
-import com.polidea.multiplatformbleadapter.errors.BleError;
-import com.polidea.multiplatformbleadapter.errors.BleErrorCode;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.errors.BleError;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.errors.BleErrorCode;
 
 
 public class BleErrorFactory {

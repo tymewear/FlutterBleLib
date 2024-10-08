@@ -2,8 +2,8 @@ package com.polidea.flutter_ble_lib.event;
 
 import com.polidea.flutter_ble_lib.converter.BleErrorJsonConverter;
 import com.polidea.flutter_ble_lib.converter.ScanResultJsonConverter;
-import com.polidea.multiplatformbleadapter.ScanResult;
-import com.polidea.multiplatformbleadapter.errors.BleError;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.ScanResult;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.errors.BleError;
 
 import io.flutter.plugin.common.EventChannel;
 

@@ -3,7 +3,7 @@ package com.polidea.flutter_ble_lib.event;
 import com.polidea.flutter_ble_lib.SingleCharacteristicResponse;
 import com.polidea.flutter_ble_lib.converter.BleErrorJsonConverter;
 import com.polidea.flutter_ble_lib.converter.SingleCharacteristicResponseJsonConverter;
-import com.polidea.multiplatformbleadapter.errors.BleError;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.errors.BleError;
 
 import org.json.JSONException;
 

@@ -2,7 +2,7 @@ package com.polidea.flutter_ble_lib.converter;
 
 import android.util.Log;
 
-import com.polidea.multiplatformbleadapter.Device;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.Device;
 
 import org.json.JSONArray;
 import org.json.JSONException;

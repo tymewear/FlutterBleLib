@@ -1,7 +1,7 @@
 package com.polidea.flutter_ble_lib.converter;
 
-import com.polidea.multiplatformbleadapter.Characteristic;
-import com.polidea.multiplatformbleadapter.utils.Base64Converter;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.Characteristic;
+import com.polidea.flutter_ble_lib.multiplatformbleadapter.utils.Base64Converter;
 
 import org.json.JSONArray;
 import org.json.JSONException;
