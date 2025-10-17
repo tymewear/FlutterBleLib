@@ -20,8 +20,8 @@ class Service extends InternalService {
     Peripheral peripheral,
     this._manager,
   ) : peripheral = peripheral,
-      uuid = jsonObject[_ServiceMetadata.uuid],
-      super(jsonObject[_ServiceMetadata.id]);
+      uuid = jsonObject[_ServiceMetadata.uuid]??'',
+      super(jsonObject[_ServiceMetadata.id])??0;
 
   /// Returns a list of [Characteristic]s of this service.
   Future<List<Characteristic>> characteristics() =>
